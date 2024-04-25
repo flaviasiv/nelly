@@ -109,6 +109,31 @@ video{
 .videop button a{
     text-decoration: none;
 }
+@media screen and (max-width: 900px) {
+    .videocontainer{
+        height: 550px;
+    }
+    video{
+        height: 514px;
+    }
+    .videop{
+        transform: translate(-50%, -45%);
+    }
+    .videop img{
+        max-width: 300px;
+    }
+    .videop p{
+        width: 300px;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .videop p span{
+        font-size: 70px;
+    }
+    .videop button{    
+        margin-top: 25px;
+    }
+}
 .servicescontainer{
     position: relative;
     display:flex;
@@ -206,6 +231,26 @@ video{
     width: 100%;
     margin: auto;
 }
+@media screen and (max-width: 999px) {
+    .servicescontainer{
+        padding: 50px 10px;
+    }
+    .services{
+        padding: 50px 0;
+    }
+    .servicescard{
+        position: relative;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        max-width: 396px;
+        margin: auto;
+        border: 1px solid #B4307F;
+        border-radius: 24px;
+        padding: 23px;
+        height: 288px;
+    }
+}
 .aboutcontainer{
     position: relative;
     width: 100%;
@@ -261,6 +306,45 @@ video{
     width: 100%;
     max-width: 300px;
     margin: auto;
+}
+@media screen and (max-width:990px) {
+    .aboutcontainer{
+        padding: 80px 10px;
+    }
+    .about{
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+    .aboutinfos{
+        text-align: center;
+    }
+    .aboutimg img{
+        display: block;
+        margin: auto;
+        max-width: 350px;
+        margin-bottom: 36px;
+    }
+    .aboutinfos h2{
+        margin: auto;
+        font-size: 60px;
+    }
+    .aboutinfos h6{
+        margin: auto;
+        font-size: 28px;
+    }
+    .aboutinfos p{
+        margin: auto;
+        margin-top: 26px;
+        font-size: 14px;
+    }
+    .aboutgrid{
+        flex-direction: column;
+        gap: 36px;
+    }
+    .preferencecard img{
+        max-width: 152px;
+    }
 }
 .portfoliocontainer{
     position: relative;
@@ -331,6 +415,24 @@ video{
     color: #000;
     list-style: none;
 }
+@media screen and (max-width:990px) {
+    .portfolioinfos{
+        padding: 80px 10px 40px;
+    }
+    .portfolioinfos h2{
+        font-size: 60px;
+    }
+    .portfolioinfos p{
+        max-width: 288px;
+        font-size: 14px;
+    }
+    .swiper1{
+        width: 407px;
+    }
+    .swiper1 img{
+        max-width: 400px;
+    }
+}
 .reviewcontainer{
     position: relative;
     width: 100%;
@@ -344,14 +446,17 @@ video{
 .vector{
     position: absolute;
 }
-
+.vector1{
+    left: 8%;
+}
+.vector2{
+    right: 8%;
+    bottom: 8%;
+}
 .reviewp h2{
     text-align: center;
     color: #F4C977;
 }
-
-
-
 .mySwiper2{
     display: block;
     position:relative;
@@ -367,7 +472,6 @@ video{
     position: relative;
     background-color: #ffffff;
     width: 289px;
-    height: 100%;
     height: 500px;
     padding-bottom: 40px;
     display: flex;
@@ -396,7 +500,6 @@ video{
     font-weight: 500;
     line-height: 150%;
 }
-
 .buttonreview a{
     display: flex;
     justify-content: center;
@@ -417,7 +520,28 @@ video{
     margin: 0;
     margin-right: 10px;
 }
-
+@media screen and (max-width:990px) {
+    .reviewp h2{
+        font-size: 60px;
+    }
+    .vector1{
+        left: 5%;
+    }
+    .vector2{
+        right: 5%;
+        bottom: 8%;
+    }
+    .portfolioinfos p{
+        max-width: 288px;
+        font-size: 14px;
+    }
+    .swiper1{
+        width: 407px;
+    }
+    .swiper1 img{
+        max-width: 400px;
+    }
+}
 .formgrid{
     position:relative;
     display: flex;
@@ -510,10 +634,7 @@ form button:hover{
 }
 @media screen and (max-width:980px) {
     .formp h2{
-        font-size: 35px;
-    }
-    .formp p{
-        font-size: 14px;
+        font-size: 60px;
     }
     .formgrid{
     padding: 130px 20px;
