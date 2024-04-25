@@ -524,12 +524,16 @@ video{
     .reviewp h2{
         font-size: 60px;
     }
+    .vector{
+        max-width: 55px;
+    }
     .vector1{
+        top: 5%;
         left: 5%;
     }
     .vector2{
         right: 5%;
-        bottom: 8%;
+        bottom: 5%;
     }
     .portfolioinfos p{
         max-width: 288px;
