@@ -113,13 +113,13 @@ header {
 }
 .menusocial li:first-child{
     display: inline-flex;
-    background-color: #F4C977;
+    background-color: #fff;
     border-radius: 20px;
     border: none;
     margin-right: 3px;
 }
 .menusocial a:first-child{
-    color: #000;
+    color: #b4307fda;
     font-family: 'Urbanist', sans-serif;
     font-size: 16px;
     font-style: normal;
