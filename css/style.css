@@ -721,11 +721,11 @@ form button:hover{
 }
 .mapinfo ul li a{
     margin-top: 8px;
-    color: #000;
-    text-decoration: none;
+    color: #fff;
+    text-decoration: underline;
     font-size: 16px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 500;
     line-height: 150%;
 }
 .mapinfo ul li p{
