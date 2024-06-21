@@ -110,7 +110,7 @@ video{
         height: 550px;
     }
     video{
-        height: 514px;
+        height: 550px;
     }
     .videop{
         transform: translate(-50%, -45%);
@@ -228,6 +228,14 @@ video{
     margin: auto;
 }
 @media screen and (max-width: 999px) {
+    .cardp h3{
+        font-size: 18px;
+    }
+    .cardp span{
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 120%;
+    }
     .servicescontainer{
         padding: 50px 10px;
     }
