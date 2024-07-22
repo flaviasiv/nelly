@@ -35,6 +35,7 @@ footer{
     margin: auto;
     justify-content: center;
     margin-top: 40px;
+    gap: 8px;
 }
 .footerimglogo ul li img{
     max-width: 50px;
@@ -69,7 +70,7 @@ footer{
 }
 .footernav ul li a:hover {
     color: #FFDE2E;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .address{
     width: 100%;

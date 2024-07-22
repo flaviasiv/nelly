@@ -52,7 +52,7 @@ header {
     display: flex;
     position: relative;
     background-color: transparent;
-    width:259px;
+    width:309px;
 }
 .menu-links{
     display: flex;
@@ -84,8 +84,7 @@ header {
 }
 .menu-linksbtn a:hover{
     color: #F4C977;
-    transition: 0.5s ease-in-out;
-    letter-spacing: 0.7;
+    transition: 0.2s ease-in-out;
 }
 .menusocial{
     right: 0;
@@ -104,35 +103,31 @@ header {
     justify-content:space-between;
     width:auto;
     text-align: center;
-    gap: 3px;
+    gap: 8px;
 }
 .menusocial ul a {
     text-decoration:none;
     cursor: pointer;
     align-items: center;
 }
-.menusocial li:first-child{
-    display: inline-flex;
-    background-color: #fff;
+.callnow{
+    background-color: #F4C977;
     border-radius: 20px;
     border: none;
-    margin-right: 3px;
 }
-.menusocial a:first-child{
-    color: #b4307fda;
+.callnow a{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: #000;
     font-family: 'Urbanist', sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%;
+    line-height: 120%;
     align-items: center;
     padding: 8px 0px;
-    width: 119px;
-}
-.menu-linksbtn a:hover,
-.menu-linksbtn a.active {
-  transition: 0.5s ease-out;
-  letter-spacing: 1.2px;
+    width: 149px;
 }
 .btn-toggle{display: none;}
 .logo-m{
@@ -236,17 +231,19 @@ position: absolute;
     padding-top: 0px;
     border-bottom-right-radius: 32px;
     border-bottom-left-radius: 32px;
-    height:290px;
+    height:260px;
   }
   .menu-links ul{
       display: block;
   }
-  .menu-links a {
-  padding:.25rem 2rem
-  }
   .menu-linksbtn{
       display: flex;
       margin-bottom: 20px;
+  }
+  .menu-linksbtn ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
   }
   .menusocial ul{
       display: flex;
@@ -260,20 +257,6 @@ position: absolute;
   .menusocial ul a {
       text-decoration:none;
       cursor: pointer;
-      align-items: center;
-  }
-  .menusocial li:first-child{
-      display: inline-flex;
-      padding: 2px 4px;
-      gap: 8px;
-      margin-bottom: 10px;
-      border-radius: 20px;
-  }
-  .menusocial a:first-child{
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 110%;
       align-items: center;
   }
   .menu-links.active{

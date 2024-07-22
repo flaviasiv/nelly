@@ -149,17 +149,75 @@ video{
     color: #B4307F;
 }
 .servicestitle p{
-    font-size: 16;
+    font-size: 16px;
     font-weight: 600;
     line-height: 150%;
 }
 .services{
     width: 100%;
-    max-width: 990px;
+    max-width: 9990px;
     margin: auto;
-    padding: 50px 36px 0 50px;
+    padding: 50px 0;
 }
-.servicesgrid{
+swiper-container.mySwiper3 {
+    width: 100%;
+    height: 530px;
+    max-width: 1370px;
+    cursor: grab;
+    margin: 0 auto !important;
+  }
+  .swiper3 {
+    width: 100%;
+    max-width: 310px;
+    height: 100%;
+    max-height: 470px;
+    margin: auto;
+    background-color: transparent;
+    border-radius: 24px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    border: 1px solid #B4307F;
+  }
+  .sercardinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px;
+    color: #000
+  }
+  .sercardinfo h3{
+    font-size: 24px;
+    line-height: 140%;
+  }
+  .btnservice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 140px;
+    list-style: none;
+    color: #000;
+    border-radius: 100px;
+    padding: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    gap: 5px;
+    border: 1px solid #B4307F;
+  }
+  .swiper3 img {
+    position: absolute;
+    width: 100% !important;
+    margin: auto;
+    object-fit: cover !important;
+    bottom: 0;
+    margin-bottom: -1px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+  }
+/* .servicesgrid{
     display: flex;
     flex-wrap: wrap;
     row-gap: 24px;
@@ -203,7 +261,7 @@ video{
     font-weight: 700;
     line-height: 130%;
     max-width: 237px;
-}
+}*/
 .servicescontainer button{
     color: #fff;
     font-size: 16px;
@@ -223,10 +281,10 @@ video{
 .servicescontainer button a{
     text-decoration: none;
 }
-.servicescontainer svg, .aboutcontainer svg, .portfoliocontainer svg, .svgreview{
+.vetor{
     width: 100%;
     margin: auto;
-}
+} 
 @media screen and (max-width: 999px) {
     .cardp h3{
         font-size: 18px;
@@ -237,24 +295,26 @@ video{
         line-height: 120%;
     }
     .servicescontainer{
-        padding: 50px 10px;
+        padding: 50px 0px;
     }
     .services{
         padding: 50px 0;
     }
-    .servicescard{
-        position: relative;
-        align-items: center;
-        display: flex;
+    .servicestitle p{
+        padding: 0 10px;
     }
+}
+.bg-pink{
+    background: linear-gradient(229deg, rgb(155, 42, 110) 0%, rgb(146, 39, 103) 40%, rgba(0,0,0) 95%);
+}
+.bg-pink-rev{
+    background: linear-gradient(121deg, #000 -0.74%, #B4307F 99.48%);
 }
 .aboutcontainer{
     position: relative;
     width: 100%;
     max-width: 9999px;
     margin: auto;
-    background: rgb(207,55,146);
-    background: linear-gradient(229deg, rgb(155, 42, 110) 0%, rgb(146, 39, 103) 40%, rgba(0,0,0) 95%);
     padding: 80px 50px;
 }
 .about{
@@ -405,11 +465,11 @@ video{
     border: none;
     margin: auto;
     margin-top: 32px;
+    color: #000;
     margin-bottom: 32px;
 }
 .portfoliocontainer button a{
     text-decoration: none;
-    color: #000;
     list-style: none;
 }
 @media screen and (max-width:990px) {
@@ -672,10 +732,6 @@ form button{
     font-weight: 600;
     border:none
 }
-form button:hover{
-    background-color: #b4307fea;
-    transition: 0.7s;
-}
 #form input:focus, #form textarea:focus{
     outline: 1px solid #fff;     /* oranges! yey */
 }
@@ -768,7 +824,115 @@ line-height: 150%;
     font-size: 14px;
     }
 }
+.popuptest{
+    position: relative;
+    width: 100%;
+    max-width: 9999px;
+    margin: auto;    
+    padding: 50px 50px 0;
+}
+.popupgrid{
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    justify-content: center;
+}
+.popup .content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 656px;
+    z-index: 1;
+    gap: 32px;
+    padding: 200px 10px 100px 10px;
+    color: #fff;
+}
+.popupimg{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    flex-shrink: 1;
+}
+.callnowpopup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 8px 6px;
+    color:#000;
+    background-color: #F4C977;
+    border-radius: 72px;
+    width:180px;
+    font-size: 16px;
+    font-weight: 800;
+    gap: 9px;
+    line-height: 100%;
+    text-decoration: none; 
+}
+.callnowpopup:hover svg{
+    fill: #fff;
+    transition: 0.2s all ease-in-out;
+}
+.popup .content .popttlbtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.callnowpopup{
+    margin-left: 0;
+}
+.popup .content h1{
+    display: flex;
+    flex-direction: column;font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; 
+    color: #F4C977;
+}
+.popup .content p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+}
+@media screen and (max-width:800px) {
+    .popuptest{padding: 0 0 30px;}    
+}
+
 a{
     text-decoration: none;
     color: inherit;
+}
+.callnow:hover{
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    transition: 0.2s ease-in-out;
+}
+.servicescontainer button:hover{
+    text-decoration: none;
+    background-color: #F4C977;
+    color: #000;
+    transition: 0.2s ease-in-out;
+}
+.portfoliocontainer button:hover, .reviewcontainer button:hover, .buttonreview a:hover, .videocontainer button:hover{
+    text-decoration: none;
+    background-color: #B4307F;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+.buttonreview a svg{
+    fill: #000;
+}
+.buttonreview a:hover svg{
+    fill: #fff;    
+    transition: 0.2s ease-in-out;
+}
+.callnow:hover svg{
+    fill: white;
+    transition: 0.2s ease-in-out;
 }
