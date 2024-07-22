@@ -110,6 +110,20 @@ header {
     cursor: pointer;
     align-items: center;
 }
+.menusocial ul a svg{
+  fill: #030606;
+}
+.menusocial ul a svg circle{
+  fill: #F4C977;
+}
+.menusocial ul a:hover svg{
+  fill: #000;
+  transition: 0.2s ease-in-out;
+}
+.menusocial ul a:hover svg circle{
+  fill: #fff;
+  transition: 0.2s ease-in-out;
+}
 .callnow{
     background-color: #F4C977;
     border-radius: 20px;
@@ -143,8 +157,8 @@ position: absolute;
     .logow{
     z-index: 9;
     display:block;
-    width: 65px;
-    top: 15px;
+    width: 90px;
+    top: 13px;
     left: 25px;
     position: absolute;
     }
@@ -207,24 +221,11 @@ position: absolute;
   .active .line3{
     transform: translate(0px , 1px)rotate(-45deg);
   }
-  .imglogo-m{
-      position: absolute;
-      display: block;
-      z-index: 999;
-      left: 1.9rem;
-      top: 0.6rem;
-  }
-  .imglogo-m img{
-      width: 100%;
-      max-width: 70px;
-      margin: auto;
-      padding: 0px;
-  }
   .menu-links{
-    background-color:#B4307F25;
+    background-color:#b4307f;
     flex-direction: column;
     align-items:center;
-    margin-top: 80px;
+    margin-top: 50px;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -271,7 +272,7 @@ position: absolute;
     padding:0px 0px;    
     margin-top: 0;
     backdrop-filter: none;
-    background-color: #B4307F25;
+    background-color: #b4307f;
     border-radius: 0;
   }
   #home {

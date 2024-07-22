@@ -40,6 +40,20 @@ footer{
 .footerimglogo ul li img{
     max-width: 50px;
 }
+.footerimglogo ul a svg{
+  fill: #030606;
+}
+.footerimglogo ul a svg circle{
+  fill: #F4C977;
+}
+.footerimglogo ul a:hover svg{
+  fill: #000;
+  transition: 0.2s ease-in-out;
+}
+.footerimglogo ul a:hover svg circle{
+  fill: #fff;
+  transition: 0.2s ease-in-out;
+}
 .footermenu{
     display: flex;
     justify-content: space-between;
