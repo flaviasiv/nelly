@@ -4,7 +4,6 @@ footer{
     max-width: 9990px;
     margin: auto;
     height: auto;
-    background-color: #48082E;
     color: #fff;
 }
 .footergrid{
@@ -58,7 +57,7 @@ footer{
     display: flex;
     justify-content: space-between;
     width: auto;
-    column-gap: 22px;
+    column-gap: 32px;
 }
 .footernav{
     display: flex;
@@ -93,6 +92,7 @@ footer{
 .address ul{    
     height: 125px;
 }
+.opentime ul{height: 175px;}
 .address ul li {
     position: relative;
     display: flex;
@@ -132,7 +132,6 @@ footer{
     max-width: 9990px;
     margin: auto;
     padding: 50px 90px;
-    background-color: #48082E;
     align-items: center;
     text-align: center;    
     border-top: 1px solid #F4C977;
