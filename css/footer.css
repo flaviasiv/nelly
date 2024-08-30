@@ -81,7 +81,7 @@ footer{
     font-weight: 600;
     line-height: 130%;
 }
-.footernav ul li a:hover {
+.footernav ul li a:hover, .address a:hover {
     color: #FFDE2E;
     transition: 0.2s;
 }

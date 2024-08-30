@@ -291,7 +291,6 @@ video{
     margin: auto;
 } 
 .servicescontainer h3{
-    margin: auto;
     font-size: 20px;
 }
 .listareas{
@@ -472,7 +471,7 @@ video{
 .swiper1{
     width: auto;
     gap: 12px;
-    width: 807px;
+    width: 607px;
     height: 100%;
     max-height: 950px;
     padding-bottom: 40px;
@@ -729,7 +728,8 @@ form {
     width:750px;
     max-width: 100%;
     margin: auto;
-    height: 299px;
+    height: 100%;
+    max-height: 299px;
     background-color: #FFF;
     border-radius: 8px;
     padding: 16px;
@@ -819,7 +819,7 @@ form button{
 }
 .mapinfo ul li a{
     margin-top: 8px;
-    color: #fff;
+    color: #000;
     text-decoration: underline;
     font-size: 16px;
     font-style: normal;
@@ -882,7 +882,7 @@ line-height: 150%;
     max-width: 656px;
     z-index: 1;
     gap: 32px;
-    padding: 200px 10px 100px 10px;
+    padding: 100px 10px 100px 10px;
     color: #fff;
 }
 .popupimg{
