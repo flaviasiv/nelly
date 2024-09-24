@@ -527,7 +527,7 @@ video{
     max-width: 9999px;
     margin: auto;
     padding: 100px 0;
-    background: url(../assets/reviewimgbg-w.png) no-repeat;
+    background: url(../assets/reviewimgbg-w.webp) no-repeat;
     background-position: 100%;
     background-size: cover;
 }
@@ -682,7 +682,7 @@ video{
     width: 100%;
     max-width: 9999px;
     margin: auto;
-    background: url(../assets/formbg-w.jpg) no-repeat;
+    background: url(../assets/formbg-w.webp) no-repeat;
     background-position: 100%;
     background-size: cover;
     /* background-size: 100%; */
