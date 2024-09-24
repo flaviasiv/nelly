@@ -290,8 +290,9 @@ video{
     width: 100%;
     margin: auto;
 } 
-.servicescontainer h3{
+.listtitle{
     font-size: 20px;
+    margin: auto;
 }
 .listareas{
     display: flex;
