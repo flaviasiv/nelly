@@ -222,51 +222,6 @@ video{
     border-bottom-left-radius: 24px;
     border-bottom-right-radius: 24px;
   }
-/* .servicesgrid{
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 24px;
-    column-gap: 24px;
-}
-.servicesgrid > div {
-    flex: 40%; 
-}
-.servicescard{
-    position: relative;
-    align-items: center;
-    display: flex;
-    width: 100%;
-    max-width: 506px;
-    margin: auto;
-    border: 1px solid #B4307F;
-    border-radius: 24px;
-    padding: 23px;
-    height: 338px;
-}
-.servicescard img{
-    display: block;
-    width: 240px;
-}
-.cardp{
-    margin-left: 10px;
-}
-.cardp h3{
-    display: block;
-    color: #B4307F;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 100%;
-    max-width: 193px;
-    margin-bottom: 5px;
-}
-.cardp span{
-    display: block;
-    color: #000;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 130%;
-    max-width: 237px;
-}*/
 .servicescontainer button{
     color: #770047;
     font-size: 16px;
@@ -328,12 +283,20 @@ video{
         padding: 50px 0px;
     }
     .services{
-        padding: 50px 0;
+        padding: 50px 0 20px;
     }
     .servicestitle p{
         padding: 0 10px;
     }
     .listareas{padding: 0;}
+      .swiper3 {
+        max-width: 510px;
+        margin-left: 0px;
+      }
+      .swiper3 img{
+        max-height: 300px;
+        object-fit: cover;
+      }
 }
 .bg-pink{
     background: linear-gradient(229deg, rgb(155, 42, 110) 0%, rgb(146, 39, 103) 40%, rgba(0,0,0) 95%);
