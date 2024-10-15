@@ -41,7 +41,7 @@ header {
     max-width: 1300px;
     margin: 10px auto;
     border-radius: 50px;
-    background-color:#B4307F30;
+    background-color:#B4307F80;
     backdrop-filter: blur(10px);
     padding: 0 50px 0 50px;
     height: 80px;
@@ -83,8 +83,8 @@ header {
     letter-spacing:1px
 }
 .menu-linksbtn a:hover{
-    color: #F4C977;
-    transition: 0.2s ease-in-out;
+    color: #FF83B4;
+    transition: 0.1s ease-in-out;
 }
 .menusocial{
     right: 0;
@@ -114,18 +114,14 @@ header {
   fill: #030606;
 }
 .menusocial ul a svg circle{
-  fill: #F4C977;
-}
-.menusocial ul a:hover svg{
-  fill: #000;
-  transition: 0.2s ease-in-out;
+  fill: #fff;
 }
 .menusocial ul a:hover svg circle{
-  fill: #fff;
+  fill: #b4307f;
   transition: 0.2s ease-in-out;
 }
 .callnow{
-    background-color: #F4C977;
+    background-color: #fff;
     border-radius: 20px;
     border: none;
 }
@@ -222,24 +218,25 @@ position: absolute;
     transform: translate(0px , 1px)rotate(-45deg);
   }
   .menu-links{
-    background-color:#b4307f;
+    background-color:#B4307F80;
     flex-direction: column;
     align-items:center;
-    margin-top: 50px;
+    margin-top: 80px;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
     padding-top: 0px;
     border-bottom-right-radius: 32px;
     border-bottom-left-radius: 32px;
-    height:260px;
+    height:200px;
   }
   .menu-links ul{
       display: block;
   }
   .menu-linksbtn{
       display: flex;
-      margin-bottom: 20px;
+      margin-bottom: 0px;
+      margin-top: -70px;
   }
   .menu-linksbtn ul{
     display: flex;
@@ -272,7 +269,6 @@ position: absolute;
     padding:0px 0px;    
     margin-top: 0;
     backdrop-filter: none;
-    background-color: #b4307f;
     border-radius: 0;
   }
   #home {
