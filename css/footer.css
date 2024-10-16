@@ -151,7 +151,7 @@ footer{
     line-height: 150%;
 }
 .footerimglogo2{display:none;}
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 970px) {
     .footergrid{
         flex-direction: column;
         padding: 10px;
