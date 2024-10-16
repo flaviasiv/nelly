@@ -104,13 +104,13 @@ video{
 }
 @media screen and (max-width: 900px) {
     .videocontainer{
-        height: 550px;
+        height: 490px;
     }
     video{
-        height: 550px;
+        height: 490px;
     }
     .videop{
-        transform: translate(-50%, -45%);
+        transform: translate(-50%, -38%);
     }
     .videop img{
         max-width: 300px;
@@ -118,13 +118,13 @@ video{
     .videop p{
         width: 300px;
         font-size: 30px;
-        margin-top: 30px;
+        margin-top: 20px;
     }
     .videop p span{
         font-size: 70px;
     }
     .videop button{    
-        margin-top: 25px;
+        margin-top: 5px;
     }
 }
 .servicescontainer{
@@ -628,19 +628,19 @@ video{
 }
 .ig-embed iframe{
     width:900px; 
-    height:740px;
+    height:800px;
 }
 @media screen and (max-width:980px) {
     .ig-embed iframe{
         width:500px; 
-        height:460px;
+        height:500px;
     }    
 }
 @media screen and (max-width:580px) {
     .ig-embed iframe{
         width:100%;
         max-width: 400px; 
-        height: 400px;
+        height: 435px;
     }    
 }
 .formgrid{
