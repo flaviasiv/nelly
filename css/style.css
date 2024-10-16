@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* primary main #95E5FF
-   secondary low #003D5A
-*/
 body, button{
     font-family: 'Urbanist', sans-serif;
 }
@@ -631,19 +628,19 @@ video{
 }
 .ig-embed iframe{
     width:900px; 
-    height:810px;
+    height:740px;
 }
 @media screen and (max-width:980px) {
     .ig-embed iframe{
         width:500px; 
-        height:500px;
+        height:460px;
     }    
 }
 @media screen and (max-width:580px) {
     .ig-embed iframe{
         width:100%;
         max-width: 400px; 
-        height: 420px;
+        height: 400px;
     }    
 }
 .formgrid{
@@ -855,6 +852,7 @@ line-height: 150%;
     z-index: 1;
     gap: 32px;
     padding: 100px 10px 100px 10px;
+    color: #B4307F;
 }
 .popupimg{
     width: 100%;
@@ -900,19 +898,16 @@ line-height: 150%;
     font-style: normal;
     font-weight: 400;
     line-height: 100%; 
-    color: #F4C977;
 }
 .popup .content p{
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: 150%; 
-    color: #B4307F;
 }
 @media screen and (max-width:800px) {
     .popuptest{padding: 0 0 30px;}    
 }
-
 a{
     text-decoration: none;
     color: inherit;
