@@ -588,7 +588,7 @@ video{
 }
 .ig-embed iframe{
     width:900px; 
-    height:800px;
+    height:830px;
 }
 @media screen and (max-width:980px) {
     .ig-embed iframe{
@@ -600,7 +600,7 @@ video{
     .ig-embed iframe{
         width:100%;
         max-width: 400px; 
-        height: 435px;
+        height: 405px;
     }    
 }
 .formgrid{
