@@ -818,7 +818,6 @@ line-height: 150%;
     width: 100%;
     max-width: 700px;
     margin: auto;
-    flex-shrink: 1;
 }
 .callnowpopup{
     display: flex;
